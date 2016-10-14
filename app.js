@@ -10,7 +10,7 @@ function LunchCheckController ($scope) {
   var comma = ',';
   function splitString(stringToSplit, separator) {
     var arrayOfStrings = stringToSplit.split(separator);
-    console.log(arrayOfStrings.length) ;
+    //console.log(arrayOfStrings.length) ;
     return arrayOfStrings.length;
   }
   $scope.howMuch = function(){
